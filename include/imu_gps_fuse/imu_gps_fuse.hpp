@@ -23,6 +23,7 @@ class ImuGpsFuse
 {
 private:
     ros::Subscriber imusub;
+    
     ros::Subscriber navsatsub;
     ros::Publisher odompub;
     ros::Publisher pathpub;
